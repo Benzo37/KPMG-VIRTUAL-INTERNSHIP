@@ -1,21 +1,14 @@
 This repository contains the files for my KPMG Data Analytics Consulting Virtual Internship.
 The main goal of this project is to work on real data based on a real life business problem. This programme covers all of the key skills of a data analytics consultant: -Data Quality Assessment -Data Insights -Data Insights and Presentation
-Summary Table
-Accuracy                Completeness       Consistency           Currency               Relevancy         Validity
-Transactions	❖	Profit: missing	❖	Customer id: incomplete
-❖	Online Order: blanks
-❖	Brand: blanks
-			❖	Cancelld status order: filter out	❖	List Price: format
-❖	Product sold date: format
-Customer Address 		❖	Customer id: incomplete	❖	States: inconsistency			
-Customer Demographic	❖	DOB: inaccurate
-❖	Age: missing	❖	Job title: blanks
-❖	Customer id: incomplete	❖	Gender: inconsistency	❖	Deceased customers: filter out	❖	Default column: delete	
+
+Summary of The Cleaned Data
+
 
 Below are more in depth descriptions of data quality issues discovered and methods of
 mitigation used. Recommendations and explanations have also been included to avoid further
 data quality issues in the future. Following recommendations will improve accuracy of data
 used to influence business decisions of Sprocket Central Pty Ltd in the future.
+
 
 Accuracy Issues 
 ❖	DOB was inaccurate for "Customer Demographic" and missing an age_column; missing a profit column for "Transactions"
